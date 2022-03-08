@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>My Biography</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Biography</title>
+  <link rel="stylesheet" type="text/css" href="latihancss.css">
+ 
 </head>
+
+
 <body>
-<h2>Biografi</h2>
-<p>Nama saya Calvin Tangka, asal saya dari Manado Sulawesi Utara. Saat ini saya bekerja sebagai merchant acquisition executive di sebuah perusahaan startup</p>
-<h3>Hobi Saya</h3>
+<h1>Biografi</h1>
+<div>Nama saya <span>Calvin Tangka</span>, asal saya dari Manado Sulawesi Utara. Saat ini saya bekerja sebagai merchant acquisition executive di sebuah perusahaan startup</div>
+<hr>
+<h2 class="hobi">Hobi Saya</h2>
 <ul>
 <li>Jogging</li>
 <li>Bermain Game</li>
@@ -16,7 +21,7 @@
 <li>Membaca Buku</li>
 <li>Surfing Internet</li>
 </ul>
-<table border="1px" cellspacing="0" cellpadding="3">
+<table class="table" border="1px" cellspacing="0" cellpadding="3">
     <tr>
       <th>Nama</th>
       <th>Alamat</th>
@@ -28,8 +33,9 @@
       <td>React JS & Node JS</td>
     </tr>
   </table>
- <h3>Hubungi Saya</h3>
-<p>Jika anda ingin menghubungi saya, anda dapat mengisi form di bawah.</p>
+ <h2 class="h2">Hubungi Saya</h2>
+
+<h5 class="h5">Jika anda ingin menghubungi saya, anda dapat mengisi form di bawah.</h5>
 <form action="/action_page.php">
     <label for="fname">Nama Anda:</label>
     <input type="text" id="fname" name="fname"><br><br>
@@ -37,5 +43,9 @@
     <input type="text" id="lname" name="lname"><br><br>
     <button type="Masukan">Masukan</button>
   </form>
+
+<h2 class="cm">Atau Anda Bisa Menghubungi Saya Lewat Email</h2>
+
+<a href="mail.google.com" class="tautan">calvinhizkia@emailsaya.com</a>
 </body>
 </html>

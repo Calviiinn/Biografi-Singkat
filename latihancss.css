@@ -1,0 +1,100 @@
+h1 {
+  color: whitesmoke;
+  font-size: 100px;
+  text-align: center;
+  text-decoration: underline;
+  margin-top: -20px;
+
+
+
+}
+p {
+  text-indent: 100px;
+  word-spacing: 5px;
+  color: whitesmoke;
+  margin-top: -20px;
+}
+ul {
+  text-align: justify;
+  color: whitesmoke;
+  
+}
+h2 {
+  color: ghostwhite; 
+  text-transform: uppercase;
+}
+
+h5 {
+  text-decoration: underline;
+}
+body {
+  font-family: arial;
+  background-image: url(../Biografi/city.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  
+}
+.tautan:link{
+  color: whitesmoke;
+}
+.tautan:hover {
+  font-size: 20px;
+}
+.tautan {
+  margin-left: 600px;
+}
+
+}
+.tautan:active {
+  color: whitesmoke;
+}
+span {
+  color: goldenrod;
+}
+
+h2 {
+  text-align: center;
+}
+h5 {
+  text-align: center;
+  color: whitesmoke;
+}
+form {
+ text-align: center;
+ color: whitesmoke;
+}
+.tautan {
+  text-align: center;
+}
+
+}
+.cm {
+  text-align: center;
+}
+.hobi {
+  text-align: center;
+}
+.paragraf {
+  text-align: center;
+}
+.hobi {
+  text-align: center;
+}
+ul {
+  margin-left: 625px;
+
+}
+table {
+  margin: auto;
+  color: whitesmoke;
+  height: 100px;
+  width: 400px;
+}
+div {
+  height: 20px;
+  width: 1200px;
+  background-color: #833471;
+  text-align: center;
+  margin: auto;
+  color: whitesmoke;
+}

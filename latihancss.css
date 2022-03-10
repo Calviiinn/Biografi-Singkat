@@ -1,9 +1,9 @@
 h1 {
-  color: whitesmoke;
+  color: #6D214F;
   font-size: 100px;
   text-align: center;
   text-decoration: underline;
-  margin-top: -20px;
+  margin-top: 20px;
 
 
 
@@ -11,16 +11,17 @@ h1 {
 p {
   text-indent: 100px;
   word-spacing: 5px;
-  color: whitesmoke;
+  color: #6D214F;
   margin-top: -20px;
 }
 ul {
   text-align: justify;
-  color: whitesmoke;
+  color: #6D214F;
+  margin-top: -20px;
   
 }
 h2 {
-  color: ghostwhite; 
+  color: #6D214F; 
   text-transform: uppercase;
 }
 
@@ -29,13 +30,13 @@ h5 {
 }
 body {
   font-family: arial;
-  background-image: url(../Biografi/city.png);
+  background-image: url(../Biografi/vektor1.png);
   background-repeat: no-repeat;
   background-size: 100%;
   
 }
 .tautan:link{
-  color: whitesmoke;
+  color: #6D214F;
 }
 .tautan:hover {
   font-size: 20px;
@@ -46,7 +47,7 @@ body {
 
 }
 .tautan:active {
-  color: whitesmoke;
+  color: #6D214F;
 }
 span {
   color: goldenrod;
@@ -57,11 +58,11 @@ h2 {
 }
 h5 {
   text-align: center;
-  color: whitesmoke;
+  color: #6D214F;
 }
 form {
  text-align: center;
- color: whitesmoke;
+ color: #6D214F;
 }
 .tautan {
   text-align: center;
@@ -86,15 +87,18 @@ ul {
 }
 table {
   margin: auto;
-  color: whitesmoke;
+  color: #6D214F;
   height: 100px;
   width: 400px;
 }
 div {
   height: 20px;
   width: 1200px;
-  background-color: #833471;
+  background-color: #6D214F;
   text-align: center;
   margin: auto;
   color: whitesmoke;
+}
+button {
+  color: #6D214F;
 }
